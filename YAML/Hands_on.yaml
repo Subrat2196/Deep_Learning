@@ -1,0 +1,47 @@
+# this is used for comments in YAML -> simiilar to python
+
+# key-value pairs always in small case letters
+
+my_course: "MLOps with Subrat Bahuguna"
+version: 1.0
+price: 2.99
+is_public: true
+release data: 2025-1-12
+pre_enroll: null
+
+# list(collection) using indentation
+
+ category:
+  - AWS
+  - DevOps
+  - AWS Certification
+
+ # list using list format
+
+ course_dev: ["Subrat","Khushboo","Nischay"]
+
+ # individual objects inside lists
+
+ dev_details: 
+  - name: "Subrat"
+    email: "subrat2196@gmail.com"
+    role: "author"
+  - name: "Khushboo"
+    email: "khush"
+    role: "editor"
+  - {name: "Anshul",email: "anshu@123",role: "Finance"}
+
+ # Multi line strings
+
+  short_description: >
+   This is a multi line
+   string that i am writing 
+   here you can see that
+
+# Even though we are using space above , in actual space wont be read, therefore to retain next 
+# line characters we use | 
+
+  detailed_description: |
+   This course has been created by subrat 
+   expert
+
