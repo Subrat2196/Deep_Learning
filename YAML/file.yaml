@@ -1,0 +1,21 @@
+# Lets start writing YAML
+
+my_session : "Subrat Bahuguna session"
+version : 1.0
+is_public : True
+release_date : 2025-01-10
+pre_enroll : NULL
+category:
+    - AWS
+    - DevOps
+    - AWS Certification
+
+course_dev: ["Subrat","Khushboo","Sloth"]
+dev_details:
+   - name: "Subrat Bahuguna"
+   - email: "bahuguna.subrat211996@gmail.com"
+
+short_desc: >
+  This ia a ML project 
+  that i have been working on
+  related to MLOps
